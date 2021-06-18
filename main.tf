@@ -73,5 +73,5 @@ output "Endpoint" {
 backend "s3" {
   bucket = "circle-ci-backend-20210618201906813100000001"
   key = "terraform/webapp/terraform.tfstate"
-  region = "us-east=1"
+  region = "us-east-1"
 }
